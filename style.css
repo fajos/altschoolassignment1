@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 80px;
+    margin-left: 20px;
+    background-color: rgb(229, 232, 233);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 40px;
+    margin-left: 60px;
+    flex: 1;
+}
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+header {
+    color: black;
+    text-align: center;
+}
+.aboutme {
+    display: flex;
+    column-gap: 200px;
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.myimage {
+    width: 330px;
+}
+
+article {
+    font-size: 19px;
+}
+.appform {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+    
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+}
+
+input, select {
+    padding: 18px;
+    border-radius: 5px;
+}
